@@ -1,4 +1,39 @@
 # h1 {
 text-align: centre;
 text-transform: capatlize;
+font-family: arial ,roboto;
 }
+
+# outer {
+text-size:25px; 
+}
+
+#inner{
+text-size:10px;
+}
+
+#box{
+backgroud-color:blue;
+}
+
+#class{
+color: red;
+}
+
+#box{
+}
+
+/// Navbar
+#navbar {
+height:60px;
+backgroud-color: black;
+}
+
+#logo {
+color: 
+font-size:25px;
+}
+
+a {
+margin-right: 200px;
+
