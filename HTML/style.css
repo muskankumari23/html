@@ -1,3 +1,4 @@
+/*PracticeSet1*/
 #box {
     background-color:blue ;
 } 
@@ -11,6 +12,7 @@ button {
 
 }
 
+/*div box*/
 *{
     font-family: "times new Roman";
 }
@@ -20,10 +22,18 @@ h1 {
 
 }
 
+/*PreacticeSet2*/
 #outer {
     font-size: 25px;
 }
 
 #inner {
     font-size:10px ;
+}
+
+#lights{
+    height: 100px;
+    width:100px;
+    background-color: green;
+    border-radius: 50%;
 }
