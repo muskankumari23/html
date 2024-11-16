@@ -1,10 +1,10 @@
-# h1 {
+#h1 {
 text-align: centre;
 text-transform: capatlize;
 font-family: arial ,roboto;
 }
 
-# outer {
+#outer {
 text-size:25px; 
 }
 
@@ -23,18 +23,26 @@ color: red;
 #box{
 }
 
-/// Navbar
+/* Navbar*/
 #navbar {
 height:60px;
 backgroud-color: black;
 }
+button{
+background-color: orange;
+}
 
 #logo {
-color: 
+color: orange;
 font-size:25px;
 }
 
 a {
 margin-right: 200px;
+teext-decoration: none;
 
-
+.loder {
+width: 100px;
+height: 100 px;
+border-radius: 50%;
+border: 5px solid black;
