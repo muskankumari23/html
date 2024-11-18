@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+
+}
+
+.navbar {
+    height: 60px;
+    background-color: rgb(4, 61, 38);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image: url("amazon-logo.png");
+    background-size:cover;
+    height:50px;
+    width: 200px;
+    align-items: center;
+    display:flex;
+    align-items: flex-start;
+
+}
+
+.border {
+    border:1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size:1rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 0.85rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(170, 10, 170, 0.897);
+    width:620px;
+    height:40px;
+    border-radius:4px;
+}
+
+.search-select {
+    background-color:#f3f3f3 ;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+
+.search-input {
+    width: 100%;
+    font-size:1rem;
+    border:none;
+}
+
+.serch-icon {
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5rem;
+    background-color: rgb(216, 15, 216);
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color:#0f1111;
+}
+/*box4*/
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+span {
+    font-size:0.85rem ;
+}
+
+.nav-second {
+    font-size:0.86rem;
+    font-weight: 700 ;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel {
+    height:40px;
+    background-color: rgb(12, 62, 51);
+    display: flex;
+    color:#0f1111;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-options {
+    display: inline ;
+}
