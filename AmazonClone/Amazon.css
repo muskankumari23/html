@@ -10,8 +10,7 @@
     background-color: rgb(4, 61, 38);
     color:white;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .nav-logo {
@@ -21,11 +20,13 @@
 .logo {
     background-image: url("amazon-logo.png");
     background-size:cover;
+    image-resolution: 50px 200px;
     height:50px;
-    width: 200px;
+    width: 113px;
     align-items: center;
     display:flex;
     align-items: flex-start;
+
 
 }
 
@@ -57,9 +58,10 @@
     display: flex;
     justify-content: space-evenly;
     background-color: rgba(170, 10, 170, 0.897);
-    width:620px;
-    height:40px;
+    width:700px;
+    height:60px;
     border-radius:4px;
+   
 }
 
 .search-select {
@@ -91,7 +93,7 @@
 /*box4*/
 
 .nav-search:hover {
-    border: 2px solid orange;
+    border: 2px soli black;
 }
 
 span {
@@ -112,14 +114,72 @@ span {
     font-weight: 700;
 }
 
-.panel {
-    height:40px;
+.pannel {
+    height: 40px;
     background-color: rgb(12, 62, 51);
     display: flex;
-    color:#0f1111;
+    color:white;
     align-items: center;
     justify-content: space-evenly;
 }
-.panel-options {
+
+.panel-options p {
     display: inline ;
+    margin-left: 15px;
+}
+
+.panel-options {
+    width:70%;
+    font-size: 0.85rem;
+}
+
+.hero-section {
+    margin-left:12%;
+    margin-right: 12%;
+    background-image: url("hero image.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.heroMassege {
+    background-color:white ;
+    color:black;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width:80%;
+    margin-bottom: 25px;
+}
+
+.heroMassege a {
+    color:#087c90;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+.box {
+    border: 2px solid black;
+    height:100px;
+    width: 23px;
+    background-color: #cccccc;
+    padding: 20px 0px 15px;
+}
+
+.box-image {
+    height:300px;
+}
+
+.box-content {
+    margin-left:10px ;
+    margin-right: 10px;
+
 }
