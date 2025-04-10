@@ -9,14 +9,15 @@
     background-color: rgb(4, 61, 38);
     color:white;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: space-evenly;
+    
 }
-
+/*  
 .nav-logo {
-    height: 10px;
-    width: 300px;
-}
+    height: 100px;
+    width: 300px;    
+/* } */
 .logo {
     background-image: url("Gallery/amazon-logo.png");
     height: 50px;
@@ -37,7 +38,6 @@
 .add-first{
     color: #cccccc;
     font-size:1rem;
-    margin-left: 15px;
 }
 
 .add-second {
@@ -198,8 +198,8 @@ footer {
 .foot-panel2 {
     background-color: #222f3d;
     color: white;
-    height :500px;
-    display: flex;
+    height :200px;
+    display: flex; 
     justify-content: space-evenly;
 }
 ul {
